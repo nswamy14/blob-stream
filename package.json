@@ -1,6 +1,6 @@
 {
   "name": "blob-stream-i2d",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A Node-style writable stream for HTML5 Blobs",
   "main": "index.js",
   "directories": {
@@ -10,8 +10,7 @@
     "index.js",
     "blob-stream.js"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "http://github.com/nswamy14/blob-stream"
