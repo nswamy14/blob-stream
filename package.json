@@ -1,25 +1,22 @@
 {
-  "name": "blob-stream",
-  "version": "0.1.3",
+  "name": "blob-stream-i2d",
+  "version": "0.0.0",
   "description": "A Node-style writable stream for HTML5 Blobs",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
+  "files": [
+    "index.js",
+    "blob-stream.js"
+  ],
   "scripts": {
-    "test": "browserify test/index.js | testling",
-    "build": "browserify --standalone blobStream . -o blob-stream.js"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/devongovett/blob-stream"
+    "url": "http://github.com/nswamy14/blob-stream"
   },
-  "author": "Devon Govett <devongovett@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/devongovett/blob-stream/issues"
-  },
-  "homepage": "https://github.com/devongovett/blob-stream",
   "dependencies": {
     "blob": "0.0.4"
   },
