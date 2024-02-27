@@ -23,7 +23,6 @@ export default [
     },
     {
         input: "./blob-stream.js",
-        // external: ["pdfkit/js/pdfkit.standalone.js", "blob-stream-i2d"],
         output: [
             {
                 file: "dist/blob-stream.js",
@@ -38,22 +37,5 @@ export default [
                 './blob-stream.js': 'blobStream'
             })
         ],
-    },
-    {
-        input: "./pdfkit.standalone.js",
-        output: [
-            {
-                file: "dist/pdfkit.standalone.esm.js",
-                format: "es",
-                name: "pdfkit",
-            },
-        ],
-        plugins: [
-            babel(),
-            nodeResolve(),
-            legacy({
-                './pdfkit.standalone.js': 'pdfkit'
-            }),
-        ],
-    },
+    }
 ];
