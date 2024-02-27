@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "blob": "0.0.4",
+    "blob": "0.0.4"
   },
   "devDependencies": {
     "rollup": "^4.12.0",
