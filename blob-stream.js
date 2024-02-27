@@ -80,12 +80,12 @@ function BlobBuilderConstructor(ary, options) {
   }
 
   return (options.type) ? bb.getBlob(options.type) : bb.getBlob();
-};
+}
 
 function BlobConstructor(ary, options) {
   mapArrayBufferViews(ary);
   return new Blob(ary, options || {});
-};
+}
 
 module.exports = (function() {
   if (blobSupported) {
@@ -1209,7 +1209,7 @@ function decodeUtf8Char (str) {
 },{"base64-js":4,"ieee754":5,"is-array":6}],4:[function(require,module,exports){
 var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 
-;(function (exports) {
+(function (exports) {
 	'use strict';
 
   var Arr = (typeof Uint8Array !== 'undefined')
