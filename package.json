@@ -2,7 +2,7 @@
   "name": "blob-stream-i2d",
   "version": "1.1.0",
   "description": "A Node-style writable stream for HTML5 Blobs",
-  "main": "index.js",
+  "main": "dist/blob-stream.js",
   "module": "dist/blob-stream.esm.js",
   "directories": {
     "test": "test"
