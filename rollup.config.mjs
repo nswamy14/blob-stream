@@ -14,10 +14,10 @@ export default [
             },
         ],
         plugins: [
-            babel(),
+            // babel(),
             nodeResolve(),
-            legacy({
-                './blob-stream.js': 'blobStream'
+            commonjs({
+                // './blob-stream.js': 'blobStream'
             }),
         ],
     },
@@ -31,9 +31,9 @@ export default [
             },
         ],
         plugins: [
-            babel(),
+            // babel(),
             nodeResolve(),
-            legacy({
+            commonjs({
                 './blob-stream.js': 'blobStream'
             })
         ],
